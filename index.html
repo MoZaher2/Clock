@@ -80,6 +80,34 @@
             box-shadow: 0px 0px 18px 5px inset #041831;
         }
 
+        .num12,
+        .num3,
+        .num6,
+        .num9 {
+            position: absolute;
+            rotate: 90deg;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0px 0px 10px #E91E63;
+        }
+
+        .num12 {
+            right: 0px;
+        }
+
+        .num3 {
+            bottom:-8px;
+        }
+
+        .num6 {   
+            left: 7px;
+        }
+
+        .num9 {
+            top:-8px;
+        }
+
         .clock {
             margin-top: 30px;
             height: 40px;
@@ -95,16 +123,16 @@
         .numM,
         .numS {
             background-color: white;
-    width: calc(91% / 3);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
-    font-weight: bold;
-    color: #041831;
-    text-shadow: 2px 2px 3px red;
-    font-style: italic;
+            width: calc(91% / 3);
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+            font-weight: bold;
+            color: #041831;
+            text-shadow: 2px 2px 3px red;
+            font-style: italic;
         }
 
         .double-dot {
@@ -126,6 +154,10 @@
             <div class="s"></div>
             <div class="m"></div>
             <div class="dot"></div>
+            <div class="num12">12</div>
+            <div class="num3">3</div>
+            <div class="num6">6</div>
+            <div class="num9">9</div>
         </div>
         <div class="clock">
             <p class="numH"></p>
